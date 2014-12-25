@@ -149,6 +149,12 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
+* What would be the console output of this code?
+```javascript
+var doIUnderstandTernary = false;
+console.log("My salary will be: " + doIUnderstandTernary ? "excellent":"fair");
+```
+** Answer "excellent" as the plus sign has precedence on the question mark and so the entire expession evaluates to a truthy string.
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, `"buzz"` at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
